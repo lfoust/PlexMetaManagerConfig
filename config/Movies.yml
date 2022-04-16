@@ -1,0 +1,160 @@
+###########################
+#        Templates        #
+###########################
+templates:
+    Studio:
+        plex_search:
+          studio: <<studio>>
+        url_poster: <<poster>>
+        sort_title: +++++_<<collection_name>>
+        collection_order: alpha
+    Movie:
+        tmdb_collection: <<collection>>
+        tmdb_summary: <<summary>>
+        url_poster: <<poster>>
+        sort_title: ++++_<<collection_name>>
+        collection_order: release
+    people:
+        actor: tmdb
+        tmdb_person: <<person>>
+        sort_title: ++_<<collection_name>>
+        collection_order: release
+
+collections:
+###########################
+#   Studio Collections    #
+###########################
+  Studio Ghibli:
+    template: {name: Studio, studio: "Studio Ghibli", poster: https://theposterdb.com/api/assets/32223}
+    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
+  DC Extended Universe:
+    template: {name: Studio, studio: "DC Extended Universe", poster: https://theposterdb.com/api/assets/92689}
+    summary: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. 
+  Marvel Cinematic Universe:
+    template: {name: Studio, studio: "Marvel Enterprise, Marvel Entertainment, Marvel Studios", poster: https://theposterdb.com/api/assets/5912}
+    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023).
+###########################
+#    Movie Collections    #
+###########################
+  James Bond:
+    template: {name: Movie, collection: 645, summary: 645, poster: https://theposterdb.com/api/assets/115662}
+  X-Men:
+    template: {name: Movie, collection: 748, summary: 748, poster: https://theposterdb.com/api/assets/20 }
+  Mission Impossible:
+    template: {name: Movie, collection: 87359, summary: 87359, poster: https://theposterdb.com/api/assets/65202}
+  Pirates of the Caribbean:
+    template: {name: Movie, collection: 295, summary: 295, poster: https://theposterdb.com/api/assets/71934}
+  Jurassic Park:
+    template: {name: Movie, collection: 328, summary: 328, poster: https://theposterdb.com/api/assets/45080}
+  Harry Potter:
+    template: {name: Movie, collection: 1241, summary: 1241, poster: https://theposterdb.com/api/assets/737}
+###########################
+#     Trakt Trending      #
+###########################
+  Trakt Trending:
+    trakt_trending: 50
+    sort_title: +++++++++_Trakt Trending
+###########################
+#      IMDb Top 250       #
+###########################
+  IMDb Top 250:
+    imdb_list: https://www.imdb.com/search/title/?groups=top_250&count=250&sort=user_rating,desc
+    sort_title: ++++++++_IMDb Top 250
+###########################
+#    People Collections   #
+###########################
+  Adam Sandler:
+    writer: tmdb
+    template: {name: people, person: 19292}
+  Al Pacino:
+    template: {name: people, person: 1158}
+  Alfred Hitchcock:
+    director: tmdb
+    template: {name: people, person: 2636}
+    trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
+  Amy Adams:
+    template: {name: people, person: 9273}
+  Ben Stiller:
+    template: {name: people, person: 7399}
+  Bill Murray:
+    template: {name: people, person: 1532}
+  Brad Pitt:
+    template: {name: people, person: 287}
+  Cate Blanchett:
+    template: {name: people, person: 112}
+  Christopher Nolan:
+    director: tmdb
+    template: {name: people, person: 525}
+  Coen Brothers:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: "1223, 1224"}
+    summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
+  Denzel Washington:
+    template: {name: people, person: 5292}
+  Dustin Hoffman:
+    template: {name: people, person: 4483}
+  Edward Norton:
+    template: {name: people, person: 819}
+  Emma Stone:
+    template: {name: people, person: 54693}
+  George Clooney:
+    template: {name: people, person: 1461}
+  Harrison Ford:
+    template: {name: people, person: 3}
+  Hugh Jackman:
+    template: {name: people, person: 6968}
+  J.J. Abrams:
+    director: tmdb
+    template: {name: people, person: 15344}
+  James Cameron:
+    director: tmdb
+    template: {name: people, person: 2710}
+  Jeff Bridges:
+    template: {name: people, person: 1229}
+  Jennifer Lawrence:
+    template: {name: people, person: 72129}
+  Jim Carrey:
+    template: {name: people, person: 206}
+  M. Night Shyamalan:
+    director: tmdb
+    template: {name: people, person: 11614}
+  Mel Brooks:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 14639}
+  Mel Gibson:
+    director: tmdb
+    template: {name: people, person: 2461}
+  Natalie Portman:
+    template: {name: people, person: 524}
+  Nicolas Cage:
+    template: {name: people, person: 2963}
+  Quentin Tarantino:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 138}
+  Ridley Scott:
+    director: tmdb
+    template: {name: people, person: 578}
+  Robert De Niro:
+    template: {name: people, person: 380}
+  Robin Williams:
+    template: {name: people, person: 2157}
+  Ryan Reynolds:
+    template: {name: people, person: 10859}
+  Sacha Baron Cohen:
+    template: {name: people, person: 6730}
+  Steve Martin:
+    template: {name: people, person: 67773}
+  Steven Spielberg:
+    director: tmdb
+    template: {name: people, person: 488}
+  Tim Burton:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 510}
+  Tom Hanks:
+    template: {name: people, person: 31}
+  Will Ferrell:
+    template: {name: people, person: 23659}
