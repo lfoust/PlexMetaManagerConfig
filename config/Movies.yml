@@ -19,6 +19,11 @@ templates:
         tmdb_person: <<person>>
         sort_title: ++_<<collection_name>>
         collection_order: release
+    director:
+        director: tmdb
+        tmdb_person: <<person>>
+        sort_title: ++_<<collection_name>>
+        collection_order: release
 
 collections:
 ###########################
@@ -57,63 +62,48 @@ collections:
 #    People Collections   #
 ###########################
   Alfred Hitchcock:
-    director: tmdb
-    template: {name: people, person: 2636}
+    template: {name: director, person: 2636}
     #trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
   Christopher Nolan:
-    director: tmdb
-    template: {name: people, person: 525}
+    template: {name: director, person: 525}
   Christopher Guest:
-    director: tmdb
-    template: {name: people, person: 13524}
+    actor: tmdb
+    template: {name: director, person: 13524}
   Coen Brothers:
     writer: tmdb
     director: tmdb
     template: {name: people, person: "1223, 1224"}
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
   David Fincher:
-    director: tmdb
-    template: {name: people, person: 7467}
+    template: {name: director, person: 7467}
   J.J. Abrams:
-    director: tmdb
-    template: {name: people, person: 15344}
+    template: {name: director, person: 15344}
   James Cameron:
-    director: tmdb
-    template: {name: people, person: 2710}
+    template: {name: director, person: 2710}
   Martin Scorsese:
-    director: tmdb
-    template: {name: people, person: 1032}
+    template: {name: director, person: 1032}
   M. Night Shyamalan:
-    director: tmdb
-    template: {name: people, person: 11614}
+    template: {name: director, person: 11614}
   Mel Brooks:
     writer: tmdb
-    director: tmdb
-    template: {name: people, person: 14639}
+    template: {name: director, person: 14639}
   Paul Thomas Anderson:
     writer: tmdb
-    director: tmdb
-    template: {name: people, person: 4762}
+    template: {name: director, person: 4762}
   Nicolas Cage:
     template: {name: people, person: 2963}
   Quentin Tarantino:
-    writer: tmdb
-    director: tmdb
-    template: {name: people, person: 138}
+    template: {name: director, person: 138}
   Ridley Scott:
-    director: tmdb
-    template: {name: people, person: 578}
+    template: {name: director, person: 578}
   Steven Spielberg:
-    director: tmdb
-    template: {name: people, person: 488}
+    template: {name: director, person: 488}
   Tim Burton:
     writer: tmdb
-    director: tmdb
-    template: {name: people, person: 510}
+    template: {name: director, person: 510}
   Wes Anderson:
     writer: tmdb
-    director: tmdb
-    template: {name: people, person: 5655}
+    template: {name: director, person: 5655}
 # Alien
 # Austin Powers
 # Back to the Future
