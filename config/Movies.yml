@@ -55,7 +55,7 @@ collections:
     summary: "A collection of all Star Trek movies"
   Criterion Collection:
     trakt_list: https://trakt.tv/users/alkodique/lists/collection-criterion
-    sort_title: ++_CriterionCollection
+    sort_title: ++++_CriterionCollection
     collection_order: release
     url_poster: https://theposterdb.com/api/assets/206770
 ###########################
