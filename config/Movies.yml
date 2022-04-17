@@ -53,6 +53,11 @@ collections:
     sync_mode: sync
     imdb_list: https://www.imdb.com/list/ls506310059/?ref_=tt_rls_4
     summary: "A collection of all Star Trek movies"
+  Criterion Collection:
+    trakt_list: https://trakt.tv/users/alkodique/lists/collection-criterion
+    sort_title: ++_CriterionCollection
+    collection_order: release
+    url_poster: https://theposterdb.com/api/assets/206770
 ###########################
 #    People Collections   #
 ###########################
