@@ -27,18 +27,6 @@ templates:
 
 collections:
 ###########################
-#   Studio Collections    #
-###########################
-  Studio Ghibli:
-    template: {name: Studio, studio: "Studio Ghibli", poster: https://theposterdb.com/api/assets/32223}
-    summary: Studio Ghibli Inc. is a Japanese animation film studio headquartered in Koganei, Tokyo. The studio is best known for its animated feature films, and has also produced several short films, television commercials, and one television film. The studio’s mascot and most recognizable symbol is the character, Totoro, a giant cat-like spirit from the 1988 classic, My Neighbor Totoro.
-  DC Extended Universe:
-    template: {name: Studio, studio: "DC Extended Universe", poster: https://theposterdb.com/api/assets/92689}
-    summary: The DC Extended Universe (DCEU) is a series of superhero films, distributed by Warner Bros. Pictures and based on characters that appear in American comic books by DC Comics. The shared universe, much like the original DC Universe in comic books and the television programs, was established by crossing over common plot elements, settings, cast, and characters. 
-  Marvel Cinematic Universe:
-    template: {name: Studio, studio: "Marvel Enterprise, Marvel Entertainment, Marvel Studios", poster: https://theposterdb.com/api/assets/5912}
-    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films, independently produced by Marvel Studios and based on characters that appear in American comic books published by Marvel Comics. The franchise includes comic books, short films, television series, and digital series. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters. The first MCU film is Iron Man (2008), which began the films of Phase One culminating in the crossover film The Avengers (2012). Phase Two began with Iron Man 3 (2013) and concluded with Ant-Man (2015). Phase Three began with Captain America - Civil War (2016) and concluded with Spider-Man - Far From Home (2019). The first three phases in the franchise are collectively known as "The Infinity Saga". The films of Phase Four will begin with Black Widow (2021) and are set to conclude with Guardians of the Galaxy Vol. 3 (2023).
-###########################
 #    Movie Collections    #
 ###########################
   James Bond:
@@ -76,8 +64,7 @@ collections:
     template: {name: director, person: 13524}
   Coen Brothers:
     writer: tmdb
-    director: tmdb
-    template: {name: people, person: "1223, 1224"}
+    template: {name: director, person: "1223, 1224"}
     summary: "Joel Coen and Ethan Coen, collectively referred to as the Coen Brothers, are American film directors, producers, screenwriters, and editors. Their films span many genres and styles, which they frequently subvert or parody. Their most acclaimed works include: Raising Arizona (1987), Miller's Crossing (1990), Fargo (1996), The Big Lebowski (1998), O Brother, Where Art Thou? (2000), No Country for Old Men (2007), Burn After Reading (2008), A Serious Man (2009), True Grit (2010), Inside Llewyn Davis (2013), and The Ballad of Buster Scruggs (2018)."
   David Fincher:
     template: {name: director, person: 7467}
@@ -133,3 +120,4 @@ collections:
 # Three Colors
 # Tremors
 # Zataoichi
+# Marvel
