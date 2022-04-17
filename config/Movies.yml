@@ -58,7 +58,7 @@ collections:
 ###########################
   Alfred Hitchcock:
     template: {name: director, person: 2636}
-    #trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
+    trakt_list: https://trakt.tv/users/movistapp/lists/hitchcock
   Christopher Nolan:
     template: {name: director, person: 525}
   Christopher Guest:
