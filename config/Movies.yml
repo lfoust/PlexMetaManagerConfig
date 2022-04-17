@@ -56,7 +56,12 @@ collections:
   Star Wars:
     template: {name: Movie, collection: 10, summary: 10, poster: https://theposterdb.com/api/assets/1409}
   Star Trek:
-    template: {name: Movie, collection: "151, 115575, 115570", poster: https://theposterdb.com/api/assets/23563}
+    #template: {name: Movie, collection: "151, 115575, 115570", poster: https://theposterdb.com/api/assets/23563}
+    url_poster: https://theposterdb.com/api/assets/23563
+    sort_title: ++++_Star Trek
+    collection_order: release
+    sync_mode: sync
+    imdb_list: https://www.imdb.com/list/ls506310059/?ref_=tt_rls_4
     summary: "A collection of all Star Trek movies"
 ###########################
 #    People Collections   #
